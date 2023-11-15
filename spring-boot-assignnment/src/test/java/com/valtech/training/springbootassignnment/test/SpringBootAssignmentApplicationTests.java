@@ -1,6 +1,5 @@
 package com.valtech.training.springbootassignnment.test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Test;
@@ -20,10 +19,13 @@ class SpringBootAssignmentApplicationTests {
 	
 	
 	
+	
 	@Test
 	void contextLoads() {
 		assertNotNull(helloWorld);
 		
+		
 	}
+	
 
 }

@@ -9,7 +9,6 @@ public class GreetingController {
 	@GetMapping("/hello")
 	public String Hello() {
 		System.out.println("hello...........");
-		
 		return "hello";
 	}
 
